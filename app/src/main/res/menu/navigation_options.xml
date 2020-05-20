@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+
+        android:title="Dashboard"
+        android:icon="@drawable/dashboard"
+        android:id="@+id/nav_dashboard"
+        >
+
+
+    </item>
+
+    <item
+
+        android:title="Expenses"
+        android:icon="@drawable/taka2"
+        android:id="@+id/nav_expense"
+        >
+
+
+    </item>
+
+
+</menu>

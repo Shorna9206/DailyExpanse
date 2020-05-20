@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DailyExpanse</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="Select_expence_type">
+        <item>Breakfast</item>
+        <item>Dinner</item>
+        <item>Lunch</item>
+        <item>Party</item>
+        <item>Entertainment</item>
+        <item>Healthcare</item>
+        <item>Grocery</item>
+        <item>Transport</item>
+        <item>Others</item>
+    </string-array>
+</resources>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Data_Edit">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Select Expanse Type :"
+            android:textColor="#243950"
+            android:textSize="14sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Spinner
+
+                android:id="@+id/expansetypeSP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:visibility="gone">
+
+            </Spinner>
+
+            <TextView
+                android:id="@+id/expanseTypeTV"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:hint="Expanse Type" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <EditText
+        android:textColor="#000000"
+        android:id="@+id/expenseamoutET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableRight="@drawable/coin"
+        android:hint="Enter expense amount">
+
+    </EditText>
+
+    <EditText
+
+        android:id="@+id/expensedateET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableRight="@drawable/daterange"
+        android:hint="Enter expense date">
+
+    </EditText>
+
+    <EditText
+
+        android:id="@+id/expensetimeET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableRight="@drawable/time"
+        android:hint="Enter expense time">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/choosedocumentIV"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/document">
+
+
+        </ImageView>
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/choosedocumentBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button"
+            android:text="Add Document(if any)"
+            android:textAllCaps="false"
+            android:textColor="#ffff"
+            android:textSize="16dp">
+
+
+        </Button>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/editexpenceBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="20dp"
+        android:background="@drawable/button"
+        android:text="Update"
+        android:textAllCaps="false"
+        android:textColor="#ffff"
+        android:textSize="16dp"
+        android:visibility="gone">
+
+    </Button>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

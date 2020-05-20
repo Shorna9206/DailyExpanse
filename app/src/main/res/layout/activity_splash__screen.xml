@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/splashscreen"
+    android:layout_height="match_parent"
+    tools:context=".Splash_Screen">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/splashIV"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/launcher_icon" />
+
+    <TextView
+
+
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:text="Welcome !"
+       android:gravity="center"
+        android:textColor="#23374D"
+        android:textSize="50dp"
+        android:textStyle="italic"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+    <ProgressBar
+        android:layout_below="@+id/splashIV"
+        android:progressBackgroundTint="#f1ecea"
+        android:progressTint="#23374D"
+        android:id="@+id/splash"
+       android:layout_marginTop="150dp"
+        android:layout_width="300dp"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</RelativeLayout>
